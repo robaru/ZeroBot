@@ -1,3 +1,33 @@
+Opieramy się na starym projekcie zero bot'a FPV link poniżej...
+
+Pinout
+![pinout](https://github.com/kawaczek/pi0w/blob/master/images/zeropinout.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ZeroBot Custom
 Leveraging the ZeroBot - Raspberry Pi Zero FPV Robot project: https://hackaday.io/project/25092-zerobot-raspberry-pi-zero-fpv-robot
 
