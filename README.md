@@ -6,3 +6,6 @@ Modifications
 * Using Raspberry Pi's GPIO 23 as an enable pin for the motor driver module
 Modifications2
 * Change node-ads1x15 to raspi-kit-ads1x15
+
+Add
+Install mjpg-streamer.sh

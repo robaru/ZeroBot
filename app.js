@@ -93,15 +93,15 @@ io.on('connection', function(socket){
          console.log('temp', temp);
       }
     });
-    if(!adc.busy){
-      adc.readADCSingleEnded(0, '4096', '250', function(err, data){ //channel, gain, samples
-        if(!err){
-          voltage = 2*parseFloat(data)/1000;
-          console.log("ADC: ", voltage);
-          io.emit('volt', voltage);
-        }
-      });
-    }
+    //if(!adc.busy){
+    //  adc.readADCSingleEnded(0, '4096', '250', function(err, data){ //channel, gain, samples
+    //    if(!err){
+    //      voltage = 2*parseFloat(data)/1000;
+     //     console.log("ADC: ", voltage);
+    //      io.emit('volt', voltage);
+    //    }
+    //  });
+    //}
   }, 5000);
 
 });
