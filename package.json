@@ -2,20 +2,20 @@
   "name": "zerobot-custom",
   "description": "Based on the 'Raspberry Pi Zero FPV Robot' hackaday project",
   "version": "1.0.1",
-  "homepage": "https://github.com/jasonrock21/ZeroBot.git",
+  "homepage": "https://github.com/kawaczek/ZeroBot.git",
   "license": "GPL-3.0",
   "main":"app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonrock21/ZeroBot.git"
+    "url": "https://github.com/kawaczek/ZeroBot.git"
   },
   "scripts": {
         "start": "sudo node app.js"
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "socket.io": "^2.0.4",
-    "node-ads1x15": "^1.0.3",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "raspi-kit-ads1x15": "^1.0.0",
     "pigpio": "^0.7.0"
   }
 }
