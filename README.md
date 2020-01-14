@@ -4,7 +4,14 @@ Pinout
 ![pinout](https://github.com/kawaczek/pi0w/blob/master/images/zeropinout.png)
 
 
-sudo apt-get install cmake libjpeg8-dev
+sudo apt-get install libjpeg62-turbo-dev
+sudo apt-get install cmake
+cd
+git clone https://github.com/jacksonliam/mjpg-streamer.git ~/mjpg-streamer
+cd mjpg-streamer/mjpg-streamer-experimental
+make clean all
+sudo mkdir /opt/mjpg-streamer
+sudo mv * /opt/mjpg-streamer
 
 
 
