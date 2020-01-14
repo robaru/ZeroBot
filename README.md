@@ -4,6 +4,9 @@ Pinout
 ![pinout](https://github.com/kawaczek/pi0w/blob/master/images/zeropinout.png)
 
 
+sudo apt-get install cmake libjpeg8-dev
+
+
 
 
 
