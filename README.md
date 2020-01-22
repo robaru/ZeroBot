@@ -5,13 +5,21 @@ Pinout
 
 
 sudo apt-get install libjpeg62-turbo-dev
+
 sudo apt-get install cmake
+
 cd
+
 git clone https://github.com/jacksonliam/mjpg-streamer.git ~/mjpg-streamer
+
 cd mjpg-streamer/mjpg-streamer-experimental
+
 make clean all
+
 sudo mkdir /opt/mjpg-streamer
+
 sudo mv * /opt/mjpg-streamer
+
 
 
 
